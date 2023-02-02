@@ -62,7 +62,7 @@ public class HttpUtils {
     public JSONArray getCookiesFromHttp(String url, List<String> keyCookiesToGet){
         JSONArray cookies = new JSONArray();
         try {
-            String payload = "{\"username\":\"quydoan\",\"password\":\"An12345678\"}";
+            String payload = "{\"username\":\"quydoan\",\"password\":\"abc\"}";
             StringEntity entity = new StringEntity(payload,
                     ContentType.APPLICATION_FORM_URLENCODED);
 
